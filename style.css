@@ -1,0 +1,200 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0; padding:0; box-sizing:border-box;
+  scroll-behavior: smooth;
+  }
+  
+  #menu {
+    background-color: #333;
+    overflow: hidden; 
+    position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  }
+  
+  #menu a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+  }
+  
+  #menu a:hover {
+    background-color: orange;
+    color: black;
+  }
+  
+  #date {
+    color: #f2f2f2;
+    padding:10px;
+  }
+  
+  
+  .arrow{ 
+    animation-name: line;
+    animation-duration: 2s;
+    position: relative;
+    animation-iteration-count: infinite;
+     
+  }
+  
+  @keyframes line{
+    0%   {left:0px; top:0px;}
+    100%  {left:0px; top:50px;}
+  }
+  
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .menu .icon {
+    display: none;
+  }
+  
+  
+  
+  
+  #image-hero {
+    background: url(https://images.pexels.com/photos/2582932/pexels-photo-2582932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center; 
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }
+  #text-hero {
+    text-align: center;
+    font-size:60px;
+    text-shadow:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 1px 15px white;
+    color: black;
+    font-weight: bold;
+  }
+  #text-hero:hover{
+    color:white;
+  }
+  
+  .column{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:black;
+    }
+  
+  .column > div {
+    width: 500px;
+    margin: 10px;
+    padding:20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    background-color:orange;
+  }
+  h2{line-height:40px}
+  #image-list{ opacity: 0.6;}
+  #image-list:hover{
+    opacity: 1.0;}
+  
+  .about-me-img{background: url(https://images.pexels.com/photos/2977527/pexels-photo-2977527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center; 
+    background-size: cover;
+    height: 900px;
+    padding:0px;
+    border:0px;
+     background-attachment: fixed;
+    background-repeat: no-repeat; 
+    opacity:0.8;
+    background-color:black;
+  }
+  .about-me{ color:white; 
+  padding:0px;
+  font-size:20px;
+    padding-left:60px;
+     line-height: 30px; 
+    text-align: justify;
+    padding-right:60px;
+    word-wrap: break-word;
+     text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  #gap{
+    background-color:black;
+  }
+  
+  
+  
+  #contact{
+    color:white;
+    padding-top:80px;
+    height:550px;
+    background-image: linear-gradient(black, orange);
+     text-align: center;  
+    background: url(https://cdn.pixabay.com/photo/2016/10/29/09/42/abstract-1780223_1280.png) no-repeat center; no-repeat center; 
+    background-size: cover;
+  }
+  
+  #emailme{
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow:inset 0px 1px 0px 0px #fce2c1;
+      background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+      background-color:#ffc477;
+    transition-duration: .5s;
+      transform: rotateX(45deg);
+      box-shadow: 0px 10px 5px white;
+      cursor: pointer;
+    background-color:white;
+  }
+  #emailme:hover{
+    color: black;
+    cursor: pointer;
+    background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+    transform: scale(1.2);
+          box-shadow: none;
+  }
+  
+  .fa {
+    text-decoration:none;
+    color:orange;
+    align-items: center;
+      justify-content: center;
+   font-size:30px;
+   display: flex;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      border: none;
+      transition-duration: .5s;
+      transform: rotateX(45deg);
+      box-shadow: 0px 10px 5px orange;
+      cursor: pointer;
+    background-color:white;
+    padding-top:10px;
+  } 
+  
+  .fa:hover {
+          transform: scale(1.2);
+          box-shadow: none;
+  }
+  
+  #footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+  }
+  
+  #designer{
+    color:white;
+  }
+  
+  #designer:hover {
+    color:orange;
+  }
