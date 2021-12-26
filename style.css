@@ -11,6 +11,7 @@
   top: 0;
   width: 100%;
   z-index: 1;
+  
   }
   
   #menu a {
@@ -60,7 +61,7 @@
   #image-hero {
     background: url(https://images.pexels.com/photos/2582932/pexels-photo-2582932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center; 
     background-size: cover;
-    height: 500px;
+    height: 100vh;
     position: relative;
   }
   #text-hero {
@@ -83,6 +84,8 @@
     display: flex;
     flex-wrap: nowrap;
     background-color:black;
+    align-items: center;
+    text-align: center;
     }
   
   .column > div {
@@ -178,6 +181,7 @@
       cursor: pointer;
     background-color:white;
     padding-top:10px;
+    margin:auto;
   } 
   
   .fa:hover {
